@@ -40,12 +40,7 @@ export function TestimonialsSection() {
               className="bg-gray-50 p-8 rounded-xl shadow-sm hover:shadow-md transition-shadow"
             >
               <div className="space-y-4">
-                <p className="text-gray-600 italic">"{testimonial.content}"</p>
-                <div>
-                  <p className="font-semibold text-gray-900">{testimonial.author}</p>
-                  <p className="text-sm text-gray-600">{testimonial.position}</p>
-                  <p className="text-sm text-primary">{testimonial.company}</p>
-                </div>
+                <p className="text-gray-600 italic">&ldquo;{testimonial.content}&rdquo;</p>
               </div>
             </div>
           ))}

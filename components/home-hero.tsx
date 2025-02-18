@@ -1,16 +1,20 @@
 "use client"
-
+import Image from 'next/image';
 import { ArrowRight } from "lucide-react"
 
 export function HomeHero() {
   return (
     <section className="relative h-screen">
-      <div 
-        className="absolute inset-0 bg-cover bg-center"
-        style={{
-          backgroundImage: "url('/images/home-hero-image.jpg')",
-        }}
-      >
+      <div className="absolute inset-0">
+        <Image
+          src="/images/home-hero-image.jpg"
+          alt="3P SARL hero background"
+          fill
+          priority
+          className="object-cover"
+          sizes="100vw"
+          quality={85}
+        />
         <div className="absolute inset-0 bg-black/50" />
       </div>
       

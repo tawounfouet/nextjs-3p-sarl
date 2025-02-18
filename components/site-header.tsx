@@ -1,6 +1,7 @@
 "use client"
 
 import Link from "next/link"
+import Image from 'next/image';
 import { usePathname } from "next/navigation"
 import { useState } from "react"
 import { Phone, Mail, Building2, Menu, X } from "lucide-react"
@@ -47,13 +48,16 @@ export function SiteHeader() {
             className="flex items-center space-x-2 hover:opacity-90 transition-opacity"
           >
             <div className="flex flex-col items-center">
-              <img 
-          src="images/3p-sarl-logo.png" 
-          alt="3P SARL Logo" 
-          className="h-14 w-auto object-contain"
+              <Image 
+                src="/images/3p-sarl-logo.png" 
+                alt="3P SARL Logo" 
+                width={120}
+                height={56}
+                priority
+                className="h-14 w-auto object-contain"
               />
               <p className="text-[11px] text-gray-600 font-medium -mt-1">
-          Génie Civil & Services
+              Génie Civil & Services
               </p>
             </div>
           </Link>

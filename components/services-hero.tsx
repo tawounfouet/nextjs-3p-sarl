@@ -1,12 +1,18 @@
+import Image from 'next/image';
+
+
 export function ServicesHero() {
   return (
     <section className="relative py-32 mt-20">
-      <div 
-        className="absolute inset-0 bg-cover bg-center"
-        style={{
-          backgroundImage: "url('images/services-hero-image.jpg')",
-        }}
-      >
+      <div className="absolute inset-0">
+        <Image
+          src="/images/services-hero-image.jpg"
+          alt="Services hero background"
+          fill
+          priority
+          className="object-cover"
+          quality={85}
+        />
         <div className="absolute inset-0 bg-black/60" />
       </div>
       <div className="container mx-auto px-4 relative">

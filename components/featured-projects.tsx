@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 const projects = [
   {
     title: "Construction d'une Maison",
@@ -41,14 +43,16 @@ export function FeaturedProjects() {
               key={index}
               className="group relative overflow-hidden rounded-xl shadow-sm hover:shadow-md transition-shadow"
             >
-              <div className="aspect-[4/3] relative overflow-hidden">
-                <img
-                  src={project.image}
+                <div className="aspect-[4/3] relative overflow-hidden">
+                <Image
+                  src={`/${project.image}`}
                   alt={project.title}
-                  className="absolute inset-0 h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
+                  fill
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                  className="object-cover transition-transform duration-300 group-hover:scale-105"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-black/0" />
-              </div>
+                </div>
               <div className="absolute inset-0 flex flex-col justify-end p-6 text-white">
                 <span className="text-sm font-medium mb-2 opacity-90">{project.category}</span>
                 <h3 className="text-xl font-semibold mb-2">{project.title}</h3>

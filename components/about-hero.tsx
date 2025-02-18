@@ -1,12 +1,18 @@
+import Image from 'next/image';
+
+
 export function AboutHero() {
   return (
     <section className="relative py-32 mt-20">
-      <div 
-        className="absolute inset-0 bg-cover bg-center"
-        style={{
-          backgroundImage: "url('https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&q=80')"
-        }}
-      >
+      <div className="absolute inset-0">
+        <Image
+          src="/images/about-hero-image.jpg"
+          alt="3P SARL background"
+          fill
+          className="object-contain w-full h-full"
+          priority
+          quality={100}
+        />
         <div className="absolute inset-0 bg-black/60" />
       </div>
       <div className="container mx-auto px-4 relative">

@@ -9,7 +9,7 @@ const navigation = [
   { name: "Accueil", href: "/" },
   { name: "Qui sommes-nous ?", href: "/about" },
   { name: "Nos Services", href: "/services" },
-  { name: "Nos Réalisations", href: "/projects" },
+  // { name: "Nos Réalisations", href: "/projects" },
   { name: "Contact", href: "/contact" },
 ]
 
@@ -44,14 +44,17 @@ export function SiteHeader() {
         <div className="flex h-20 items-center justify-between">
           <Link 
             href="/" 
-            className="flex items-center space-x-3 hover:opacity-90 transition-opacity"
+            className="flex items-center space-x-2 hover:opacity-90 transition-opacity"
           >
-            <div className="bg-primary/10 p-2 rounded-lg">
-              <Building2 className="h-8 w-8 text-primary" />
-            </div>
-            <div>
-              <span className="font-bold text-2xl text-primary">3P SARL</span>
-              <p className="text-xs text-gray-600">Génie Civil & Services</p>
+            <div className="flex flex-col items-center">
+              <img 
+          src="images/3p-sarl-logo.png" 
+          alt="3P SARL Logo" 
+          className="h-14 w-auto object-contain"
+              />
+              <p className="text-[11px] text-gray-600 font-medium -mt-1">
+          Génie Civil & Services
+              </p>
             </div>
           </Link>
 

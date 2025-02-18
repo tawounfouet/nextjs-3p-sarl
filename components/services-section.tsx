@@ -1,4 +1,4 @@
-import { Building, Briefcase, Home, PenTool as Tool, Truck } from "lucide-react"
+import { Building, Briefcase, Globe, Home, PenTool as Tool, Truck } from "lucide-react"
 
 const services = [
   {
@@ -23,8 +23,13 @@ const services = [
   },
   {
     icon: Truck,
-    title: "Transit & Import-Export",
-    description: "Solutions logistiques internationales"
+    title: "Transit",
+    description: "Solutions logistiques et transport de marchandises"
+  },
+  {
+    icon: Globe,
+    title: "Import-Export",
+    description: "Commerce international et solutions d'import-export"
   }
 ]
 

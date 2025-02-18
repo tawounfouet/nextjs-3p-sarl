@@ -51,14 +51,26 @@ const serviceDetails = [
   },
   {
     icon: Truck,
-    title: "Transit & Import-Export",
-    description: "Nos solutions logistiques comprennent :",
+    title: "Transit",
+    description: "Nos solutions de transit comprennent :",
     features: [
       "Dédouanement de marchandises",
       "Transport international",
       "Gestion des formalités douanières",
+      "Suivi des expéditions",
+      "Services de coursier international"
+    ]
+  },
+  {
+    icon: Briefcase,
+    title: "Import-Export",
+    description: "Nos services d'import-export incluent :",
+    features: [
+      "Sourcing international",
+      "Négociation avec les fournisseurs",
+      "Gestion des documents commerciaux",
       "Entreposage et stockage",
-      "Conseil en import-export"
+      "Conseil en stratégie import-export"
     ]
   }
 ]

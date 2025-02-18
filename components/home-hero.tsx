@@ -8,7 +8,7 @@ export function HomeHero() {
       <div 
         className="absolute inset-0 bg-cover bg-center"
         style={{
-          backgroundImage: "url('https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&q=80')",
+          backgroundImage: "url('/images/home-hero-image.jpg')",
         }}
       >
         <div className="absolute inset-0 bg-black/50" />

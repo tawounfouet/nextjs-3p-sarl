@@ -4,7 +4,7 @@ export function ServicesHero() {
       <div 
         className="absolute inset-0 bg-cover bg-center"
         style={{
-          backgroundImage: "url('https://images.unsplash.com/photo-1581094794329-c8112a89af44?auto=format&fit=crop&q=80')"
+          backgroundImage: "url('images/services-hero-image.jpg')",
         }}
       >
         <div className="absolute inset-0 bg-black/60" />

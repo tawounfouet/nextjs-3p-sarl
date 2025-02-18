@@ -1,21 +1,21 @@
 const projects = [
   {
-    title: "Complexe Résidentiel Modern City",
+    title: "Construction d'une Maison",
     category: "Construction",
-    image: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&q=80",
-    description: "Un ensemble résidentiel moderne de 50 appartements"
+    image: "images/elvis-phone-1.jpg",
+    description: "Construction complète d'une maison d'habitation"
   },
   {
-    title: "Centre Commercial Douala Mall",
-    category: "Commercial",
-    image: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&q=80",
-    description: "Rénovation complète d'un centre commercial"
+    title: "Construction d'un immeuble",
+    category: "Construction",
+    image: "images/featured-project-1.jpg",
+    description: "Construction d'un immeuble de bureaux et d'appartements"
   },
   {
-    title: "Infrastructure Routière N4",
-    category: "Travaux Publics",
-    image: "https://images.unsplash.com/photo-1573075175660-08fd45ac27a1?auto=format&fit=crop&q=80",
-    description: "Construction de 12 km de route"
+    title: "Renovation d'un Bureau",
+    category: "Rénovation",
+    image: "images/elvis-phone-2.jpg",
+    description: "Rénovation complète d'un bureau d'entreprise"
   }
 ]
 

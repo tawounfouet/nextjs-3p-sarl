@@ -3,35 +3,35 @@ import { Users, Building2, CheckCircle, Trophy } from "lucide-react"
 const stats = [
   {
     icon: Users,
-    value: "200+",
+    value: "20+",
     label: "Clients Satisfaits",
     description: "Entreprises et particuliers nous font confiance"
   },
   {
     icon: Building2,
-    value: "150+",
+    value: "15+",
     label: "Projets Réalisés",
     description: "Constructions et services accomplis avec succès"
   },
   {
     icon: CheckCircle,
-    value: "15+",
+    value: "07+",
     label: "Années d'Expérience",
     description: "D'expertise dans le secteur"
-  },
-  {
-    icon: Trophy,
-    value: "10+",
-    label: "Récompenses",
-    description: "Reconnaissances de notre excellence"
   }
+  // {
+  //   icon: Trophy,
+  //   value: "10+",
+  //   label: "Récompenses",
+  //   description: "Reconnaissances de notre excellence"
+  // }
 ]
 
 export function StatsSection() {
   return (
     <section className="py-20 bg-gray-50">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {stats.map((stat, index) => {
             const Icon = stat.icon
             return (

@@ -1,21 +1,21 @@
 const testimonials = [
   {
     content: "3P SARL a dépassé toutes nos attentes. Leur professionnalisme et leur expertise ont permis de mener notre projet à bien dans les délais impartis.",
-    author: "Jean Michel",
-    position: "Directeur Général",
-    company: "Société Immobilière de Douala"
+    // author: "Jean Michel",
+    // position: "Directeur Général",
+    // company: "Société Immobilière de Douala"
   },
   {
     content: "Une équipe exceptionnelle qui a su comprendre nos besoins et proposer des solutions adaptées. Je recommande vivement leurs services.",
-    author: "Marie Claire",
-    position: "Gérante",
-    company: "MC Construction"
+    // author: "Marie Claire",
+    // position: "Gérante",
+    // company: "MC Construction"
   },
   {
     content: "La qualité de leur travail et leur engagement envers la satisfaction client sont remarquables. Un partenaire de confiance pour tous vos projets.",
-    author: "Paul Biya",
-    position: "Architecte",
-    company: "Cabinet d'Architecture Moderne"
+    // author: "Paul Biya",
+    // position: "Architecte",
+    // company: "Cabinet d'Architecture Moderne"
   }
 ]
 

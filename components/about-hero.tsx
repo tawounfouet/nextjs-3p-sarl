@@ -9,7 +9,8 @@ export function AboutHero() {
           src="/images/about-hero-image.jpg"
           alt="3P SARL background"
           fill
-          className="object-contain w-full h-full"
+          className="object-cover w-full h-full"
+          objectPosition="top"
           priority
           quality={100}
         />
